@@ -7,7 +7,7 @@ const greenColor = document.querySelector('.green');
 const blueColor = document.querySelector('.blue');
 const addButton = container.querySelector('.add');
 
-const DATA_KEY = 'stickynotes2';
+const DATA_KEY = 'todoData';
 const colors = [
     { bcolor: 'white', fcolor: 'black' },
     { bcolor: '#FFD500', fcolor: 'red' },
