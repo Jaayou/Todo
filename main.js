@@ -10,7 +10,7 @@ const addButton = container.querySelector('.add');
 const DATA_KEY = 'stickynotes2';
 const colors = [
     { bcolor: 'white', fcolor: 'black' },
-    { bcolor: '#FFD500', fcolor: 'white' },
+    { bcolor: '#FFD500', fcolor: 'red' },
     { bcolor: 'red', fcolor: 'white' },
     { bcolor: '#00B952', fcolor: 'white' },
     { bcolor: '#0075C9', fcolor: 'white' }
