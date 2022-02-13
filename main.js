@@ -59,7 +59,7 @@ function createNoteElement(id, content, bcolor, fcolor) {
     element.style.backgroundColor = bcolor;
     element.style.color = fcolor;
     element.value = content;
-    element.placeholder = '(Empty... dblclick for delete)';
+    element.placeholder = '(Empty... dbl-click to delete)';
 
     element.addEventListener('change', () => {
         updateNote(id, element.value);
